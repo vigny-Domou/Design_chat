@@ -2,8 +2,6 @@ import 'package:chat_design/main.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'package:flutter/src/services/asset_manifest.dart' as flutter_asset_manifest;
-import 'package:google_fonts/src/asset_manifest.dart' as google_fonts_asset_manifest;
 
 class MenuSection extends StatelessWidget {
 

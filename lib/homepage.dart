@@ -1,5 +1,7 @@
-import 'package:chat_design/MenuSection.dart';
+import 'package:chat_design/section/FavoriteSection.dart';
+import 'package:chat_design/section/MenuSection.dart';
 import 'package:chat_design/main.dart';
+import 'package:chat_design/section/MessageSection.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatefulWidget {
@@ -37,14 +39,10 @@ class _HomepageState extends State<Homepage> {
       body: Column(
         children: [
          MenuSection(),
-           Container(
-            height: 100,
-            color: Colors.red,
-          ),
+           FavoriteSection(),
           Expanded(
-            child:Container(
-              color: Colors.green,
-            ) )
+           child: Messagesection()
+             ),
         ],
       ),
       floatingActionButton: FloatingActionButton(
